@@ -1,0 +1,17 @@
+# Render deployment configuration for backend
+services:
+  - type: web
+    name: deja-vu-backend
+    env: python
+    region: oregon  # Change to your preferred region
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      # Add other environment variables in Render dashboard
+      # GEMINI_API_KEY
+      # SUPABASE_URL
+      # SUPABASE_KEY
+      # etc.

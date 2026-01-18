@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pandas
+numpy
+scikit-learn
+openai
+python-multipart
+pydantic
+httpx
+python-dotenv
+google-generativeai
+supabase

@@ -1,0 +1,13 @@
+# Vercel ignore file
+backend/
+*.md
+.git/
+.env*
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
