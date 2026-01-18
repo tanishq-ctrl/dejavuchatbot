@@ -212,7 +212,10 @@ function ComparePageContent() {
 /**
  * Compare Page Wrapper with Suspense
  * Wraps the compare page content in Suspense for useSearchParams()
+ * Force dynamic rendering to avoid static generation issues
  */
+export const dynamic = 'force-dynamic';
+
 export default function ComparePage() {
     return (
         <Suspense fallback={
