@@ -36,7 +36,7 @@ This feature allows users to seamlessly hand off property inquiries to agents vi
 The generated WhatsApp message follows this structure:
 
 ```
-Hi Deja Vu Properties team, I'm interested in the following options:
+Hi XYZ Properties team, I'm interested in the following options:
 
 Criteria: Location: Palm Jumeirah, 2 Bed, Apartment, Budget: AED 2.0M, Ready
 

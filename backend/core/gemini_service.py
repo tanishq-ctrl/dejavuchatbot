@@ -122,7 +122,7 @@ class GeminiService:
             if intent.get("status"):
                 intent_context.append(f"Status: {intent['status']}")
             
-            system_prompt = f"""You are an expert Real Estate Consultant for 'Deja Vu Properties' in Dubai and UAE.
+            system_prompt = f"""You are an expert Real Estate Consultant for 'XYZ Properties' in Dubai and UAE.
 Your tone is professional, enthusiastic, helpful, and sales-oriented but trustworthy.
 
 User's Search Criteria:

@@ -1,11 +1,11 @@
-# Deja Vu Real Estate AI Assistance
+# XYZ Real Estate AI Assistance
 
-A production-quality prototype chatbot that helps users find their ideal property in Dubai, featuring Deja Vu Real Estate exclusives.
+A production-quality prototype chatbot that helps users find their ideal property in Dubai, featuring XYZ Real Estate exclusives.
 
 ## Features
 - **Natural Language Chat**: Ask for "2 bed in Downtown under 2M" or "Off-plan investment".
 - **Smart Recommendations**: Filters by budget, bedroom, type, and location.
-- **Deja Vu Exclusives**: Prioritizes projects like *Védaire Residences*, *Bellagio by Sunrise*, and *Trillium Heights*.
+- **XYZ Exclusives**: Prioritizes projects like *Védaire Residences*, *Bellagio by Sunrise*, and *Trillium Heights*.
 - **Lead Capture**: Collects user details for high-interest properties.
 
 ## Setup Instructions
@@ -35,7 +35,7 @@ A production-quality prototype chatbot that helps users find their ideal propert
 - `data/`: Contains `properties.csv` and `leads.csv`.
 - `services/`: Core logic (Parser, Recommender, Lead Capture).
 
-## Demo Pitch Script for Deja Vu Team
+## Demo Pitch Script for XYZ Team
 
 **"Hi Team,**
 

@@ -14,7 +14,7 @@ When deploying to Vercel, you need to manually set the root directory to `fronte
 
 2. **Import Your Repository**
    - Click "Import Project"
-   - Select: `tanishq-ctrl/dejavuchatbot`
+   - Select: `tanishq-ctrl/xyzchatbot`
    - Click "Import"
 
 3. **Configure Project**

@@ -8,7 +8,7 @@ from services.llm_service import LLMService
 
 # --- Config & Setup ---
 st.set_page_config(
-    page_title="Deja Vu Real Estate AI",
+    page_title="XYZ Real Estate AI",
     page_icon="🏙️",
     layout="wide"
 )
@@ -26,18 +26,18 @@ if 'llm' not in st.session_state:
 # Initialize Chat History
 if "messages" not in st.session_state:
     st.session_state.messages = [
-        {"role": "assistant", "content": "Hello! I'm your Deja Vu Real Estate assistant. I can help you find exclusive off-plan projects and dream homes in Dubai. Tell me what you're looking for! (e.g., '2 bed in Downtown around 2M')"}
+        {"role": "assistant", "content": "Hello! I'm your XYZ Real Estate assistant. I can help you find exclusive off-plan projects and dream homes in Dubai. Tell me what you're looking for! (e.g., '2 bed in Downtown around 2M')"}
     ]
 
 # --- Sidebar ---
 with st.sidebar:
-    st.image("https://via.placeholder.com/300x100?text=Deja+Vu+Properties", use_container_width=True)
+    st.image("https://via.placeholder.com/300x100?text=XYZ+Properties", use_container_width=True)
     st.title("Settings & Filters")
     
     st.markdown("### Quick Filters")
     debug_mode = st.toggle("Debug Mode", value=False)
     
-    with st.expander("About Deja Vu Exclusives"):
+    with st.expander("About XYZ Exclusives"):
         st.write("- **Védaire Residences**: Luxury in Meydan")
         st.write("- **Bellagio by Sunrise**: Value in Wasl Gate")
         st.write("- **Trillium Heights**: Jumeirah Garden City")

@@ -1,4 +1,4 @@
-# Deja Vu Real Estate AI Chatbot
+# XYZ Real Estate AI Chatbot
 
 A professional, AI-powered Real Estate Chatbot built with **Next.js 14** (Frontend) and **FastAPI** (Backend). Features real-time property data, natural language processing, and intelligent lead capture.
 
@@ -24,7 +24,7 @@ A professional, AI-powered Real Estate Chatbot built with **Next.js 14** (Fronte
 ### Data Sources
 - **Real-Time API**: PropertyFinder API integration (when configured)
 - **CSV Fallback**: 600+ property listings with property-themed images
-- **Featured Properties**: Exclusive Deja Vu properties highlighted
+- **Featured Properties**: Exclusive XYZ properties highlighted
 
 ## 🏗️ Architecture
 
@@ -498,7 +498,7 @@ Quick Start:
 
 ## 📄 License
 
-Private project for Deja Vu Properties
+Private project for XYZ Properties
 
 ## 👥 Support
 
@@ -506,4 +506,4 @@ For issues or questions, check the logs or contact the development team.
 
 ---
 
-**Built with ❤️ for Deja Vu Properties**
+**Built with ❤️ for XYZ Properties**

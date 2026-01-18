@@ -1,6 +1,6 @@
 # Future Improvements & Feature Suggestions
 
-This document outlines potential improvements and new features that can be added to the Deja Vu Real Estate AI Chatbot project.
+This document outlines potential improvements and new features that can be added to the XYZ Real Estate AI Chatbot project.
 
 ## 🎯 High Priority Features
 

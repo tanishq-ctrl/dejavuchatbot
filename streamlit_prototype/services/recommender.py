@@ -109,7 +109,7 @@ class RecommenderEngine:
                 prop['match_reasons'].append(f"Category: {row['cluster_label']}")
 
             if row['featured']:
-                prop['match_reasons'].append("🌟 Deja Vu Exclusive Opportunity")
+                prop['match_reasons'].append("🌟 XYZ Exclusive Opportunity")
             
             if intent.get("location") and intent['location'].lower() in str(row['community']).lower():
                 prop['match_reasons'].append(f"Located in requested {row['community']}")

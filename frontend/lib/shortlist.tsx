@@ -19,7 +19,7 @@ interface ShortlistContextType {
 
 const ShortlistContext = createContext<ShortlistContextType | undefined>(undefined);
 
-const STORAGE_KEY = 'deja-vu-shortlist';
+const STORAGE_KEY = 'xyz-shortlist';
 
 export function ShortlistProvider({ children }: { children: React.ReactNode }) {
     const [shortlist, setShortlist] = useState<Property[]>([]);

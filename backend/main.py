@@ -7,7 +7,7 @@ import os
 # Load environment variables from .env file
 load_dotenv()
 
-app = FastAPI(title="Deja Vu Real Estate API")
+app = FastAPI(title="XYZ Real Estate API")
 
 # Setup CORS (Allow frontend)
 # In production, set ALLOWED_ORIGINS in .env (e.g., "http://localhost:3000,https://yourdomain.com")
@@ -24,7 +24,7 @@ app.include_router(api_router, prefix="/api")
 
 @app.get("/")
 async def root():
-    return {"message": "Deja Vu API is running"}
+    return {"message": "XYZ API is running"}
 
 if __name__ == "__main__":
     import uvicorn

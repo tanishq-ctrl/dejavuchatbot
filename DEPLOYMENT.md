@@ -1,6 +1,6 @@
 # Free Deployment Guide 🚀
 
-This guide will help you deploy the Deja Vu Real Estate AI Chatbot for **free** using modern cloud platforms.
+This guide will help you deploy the XYZ Real Estate AI Chatbot for **free** using modern cloud platforms.
 
 ## 📋 Overview
 
@@ -50,13 +50,15 @@ git push -u origin main
 1. Go to [vercel.com](https://vercel.com)
 2. Sign up/Login with GitHub
 3. Click **"Add New Project"**
-4. Import your GitHub repository
-5. Configure project:
-   - **Framework Preset**: Next.js
-   - **Root Directory**: `frontend`
-   - **Build Command**: `npm run build`
-   - **Output Directory**: `.next`
-   - **Install Command**: `npm install`
+4. Import your GitHub repository: `tanishq-ctrl/xyzchatbot`
+5. **IMPORTANT**: Configure project settings:
+   - **Framework Preset**: Next.js (auto-detected)
+   - **Root Directory**: Click "Edit" → Change to `frontend` (must type it manually)
+     - If "frontend" doesn't appear in dropdown, just type `frontend` in the text field
+   - **Build Command**: `npm run build` (auto-detected)
+   - **Output Directory**: `.next` (auto-detected)
+   - **Install Command**: `npm install` (auto-detected)
+6. If root directory field is not visible, click "Configure Project" or "Advanced" to see it
 
 #### 3. Add Environment Variables in Vercel
 
@@ -94,7 +96,7 @@ Choose one platform:
 #### 2. Configure Service
 
 - **Repository**: Select your GitHub repo
-- **Name**: `deja-vu-backend` (or any name)
+- **Name**: `xyz-backend` (or any name)
 - **Region**: Choose closest to your users
 - **Branch**: `main`
 - **Root Directory**: `backend`
@@ -323,7 +325,7 @@ Create `render.yaml` in project root for Render deployment:
 ```yaml
 services:
   - type: web
-    name: deja-vu-backend
+    name: xyz-backend
     env: python
     region: oregon
     plan: free

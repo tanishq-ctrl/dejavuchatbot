@@ -18,8 +18,8 @@ Step-by-step guide to deploy your FastAPI backend to Render (FREE tier).
 ## Step 3: Connect Your GitHub Repository
 
 1. Under **"Public Git repositories"**, find:
-   - **tanishq-ctrl/dejavuchatbot**
-   - Or search for "dejavuchatbot"
+   - **tanishq-ctrl/xyzchatbot**
+   - Or search for "xyzchatbot"
 2. Click **"Connect"** next to your repository
 3. If you don't see it, click **"Configure account"** and grant access
 
@@ -28,7 +28,7 @@ Step-by-step guide to deploy your FastAPI backend to Render (FREE tier).
 Fill in the following settings:
 
 ### Basic Settings:
-- **Name**: `deja-vu-backend` (or any name you like)
+- **Name**: `xyz-backend` (or any name you like)
 - **Region**: Choose closest to you (e.g., **Oregon**, **Singapore**, **Frankfurt**)
 - **Branch**: `main` (should auto-detect)
 
@@ -159,7 +159,7 @@ Value: 3.11.0
 ## Step 8: Test Your Backend
 
 1. Click on your service URL (e.g., `https://your-backend.onrender.com`)
-2. You should see: `{"message": "Deja Vu API is running"}`
+2. You should see: `{"message": "XYZ API is running"}`
 3. Test API docs: `https://your-backend.onrender.com/docs`
 4. Test an endpoint: `https://your-backend.onrender.com/api/featured`
 

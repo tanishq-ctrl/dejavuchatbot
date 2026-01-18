@@ -36,7 +36,7 @@ export function buildWhatsAppMessage({
     const parts: string[] = [];
 
     // Start with greeting
-    parts.push("Hi Deja Vu Properties team, I'm interested in the following options:");
+    parts.push("Hi XYZ Properties team, I'm interested in the following options:");
 
     // Add user criteria if available
     const criteriaParts: string[] = [];

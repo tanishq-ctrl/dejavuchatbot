@@ -23,7 +23,7 @@ class LeadCapture:
         """
         Generates a text summary of the session
         """
-        summary = "--- Deja Vu Property Search Summary ---\n"
+        summary = "--- XYZ Property Search Summary ---\n"
         summary += f"Date: {datetime.datetime.now().strftime('%Y-%m-%d')}\n\n"
         
         summary += "Top Recommendations:\n"

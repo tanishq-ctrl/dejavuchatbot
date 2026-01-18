@@ -1,7 +1,7 @@
 # Render deployment configuration for backend
 services:
   - type: web
-    name: deja-vu-backend
+    name: xyz-backend
     env: python
     region: oregon  # Change to your preferred region
     plan: free

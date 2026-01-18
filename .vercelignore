@@ -1,5 +1,6 @@
-# Vercel ignore file
+# Vercel ignore file - Only deploy frontend, ignore everything else
 backend/
+streamlit_prototype/
 *.md
 .git/
 .env*
@@ -11,3 +12,6 @@ __pycache__/
 .Python
 venv/
 .venv/
+**/node_modules/
+**/.next/
+**/__pycache__/

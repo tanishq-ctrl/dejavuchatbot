@@ -18,7 +18,7 @@ interface Message {
 
 export default function Home() {
   const [messages, setMessages] = useState<Message[]>([
-    { role: 'assistant', content: "👋 **Welcome!** I'm your **Deja Vu Real Estate AI** assistant, powered by live data from PropertyFinder.ae. I can help you find the perfect property in Dubai and across the UAE!\n\n💡 **Try asking:**\n• '2 bed apartment in Downtown under 2M'\n• 'Villa in Palm Jumeirah'\n• 'Studio for rent in Dubai Marina'\n• '3 bedroom ready property in Business Bay'\n\n**What are you looking for?**" }
+    { role: 'assistant', content: "👋 **Welcome!** I'm your **XYZ Real Estate AI** assistant, powered by live data from PropertyFinder.ae. I can help you find the perfect property in Dubai and across the UAE!\n\n💡 **Try asking:**\n• '2 bed apartment in Downtown under 2M'\n• 'Villa in Palm Jumeirah'\n• 'Studio for rent in Dubai Marina'\n• '3 bedroom ready property in Business Bay'\n\n**What are you looking for?**" }
   ]);
   const [recommendations, setRecommendations] = useState<Property[]>([]);
   const [loading, setLoading] = useState(false);
@@ -197,7 +197,7 @@ export default function Home() {
           <div className="bg-black text-amber-500 p-1.5 rounded-lg">
             <Building2 size={24} />
           </div>
-          <h1 className="text-xl font-bold tracking-tight">DEJA VU <span className="font-light text-gray-500">PROPERTIES AI</span></h1>
+          <h1 className="text-xl font-bold tracking-tight">XYZ <span className="font-light text-gray-500">PROPERTIES AI</span></h1>
         </div>
       </header>
 

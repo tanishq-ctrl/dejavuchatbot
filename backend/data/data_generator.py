@@ -10,14 +10,14 @@ TOTAL_ROWS = 600
 EXCLUSIVES_COUNT = 30  # At least 30 featured
 OUTPUT_FILE = "data/properties.csv"
 
-# --- Deja Vu Exclusives Data ---
+# --- XYZ Exclusives Data ---
 # Based on prompt details
 EXCLUSIVES = [
     {
         "id": "DV_001",
         "title": "Védaire Residences - Luxury Off-plan",
         "project_name": "Védaire Residences",
-        "developer": "Deja Vu Dev", # Placeholder if not specified
+        "developer": "XYZ Dev", # Placeholder if not specified
         "community": "Meydan Avenue",
         "city": "Dubai",
         "property_type": "Apartment",
@@ -34,7 +34,7 @@ EXCLUSIVES = [
         "latitude": 25.1558,
         "longitude": 55.2936,
         "image_url": "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=600&h=400&fit=crop",
-        "source": "dejavu_exclusive",
+        "source": "xyz_exclusive",
         "featured": True
     },
     {
@@ -58,14 +58,14 @@ EXCLUSIVES = [
         "latitude": 25.0385,
         "longitude": 55.1189,
         "image_url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=600&h=400&fit=crop",
-        "source": "dejavu_exclusive",
+        "source": "xyz_exclusive",
         "featured": True
     },
     {
         "id": "DV_003",
         "title": "Trillium Heights - Premium Living",
         "project_name": "Trillium Heights",
-        "developer": "Deja Vu Partner",
+        "developer": "XYZ Partner",
         "community": "Jumeirah Garden City",
         "city": "Dubai",
         "property_type": "Apartment",
@@ -82,7 +82,7 @@ EXCLUSIVES = [
         "latitude": 25.2154,
         "longitude": 55.2758,
         "image_url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=600&h=400&fit=crop",
-        "source": "dejavu_exclusive",
+        "source": "xyz_exclusive",
         "featured": True
     }
 ]
@@ -218,7 +218,7 @@ def main():
     rows = []
     
     # Add Exclusives (replicated to hit 30 if needed, but we'll just upscale them or add slight variants)
-    # Strategy: Add the 3 core exclusives, then create variants of them to match "seed at least 30 rows that are Deja Vu style"
+    # Strategy: Add the 3 core exclusives, then create variants of them to match "seed at least 30 rows that are XYZ style"
     
     # 1. Add Exact Exclusives
     rows.extend(EXCLUSIVES)

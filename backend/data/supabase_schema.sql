@@ -37,10 +37,9 @@ CREATE TABLE IF NOT EXISTS public.shortlists (
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
--- Create an index on share_id for faster lookups
+
 CREATE INDEX IF NOT EXISTS idx_shortlists_share_id ON public.shortlists(share_id);
 
--- Create an index on created_at for cleanup queries
 CREATE INDEX IF NOT EXISTS idx_shortlists_created_at ON public.shortlists(created_at DESC);
 
 -- Optional: Enable Row Level Security (RLS) if needed

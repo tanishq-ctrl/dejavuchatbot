@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Deja Vu Real Estate AI",
+  title: "XYZ Real Estate AI",
   description: "AI-powered Real Estate Chatbot",
 };
 

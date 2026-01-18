@@ -158,7 +158,7 @@ export function LeadModal({ property, onClose, onSubmit }: LeadModalProps) {
                     </button>
                         
                         <p className="text-xs text-center text-gray-500 mt-3">
-                            🔒 Your information is secure. An agent from <strong>Deja Vu Properties</strong> will contact you within 24 hours.
+                            🔒 Your information is secure. An agent from <strong>XYZ Properties</strong> will contact you within 24 hours.
                     </p>
                 </form>
                 </div>
