@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { CompareView } from '@/components/shortlist/CompareView';
 import { Property } from '@/lib/api';
@@ -11,11 +11,11 @@ import { useToast } from '@/components/ui/Toast';
 import { Building2, ArrowLeft, Loader2, MessageCircle } from 'lucide-react';
 
 /**
- * Compare Page
+ * Compare Page Content
  * Displays properties for side-by-side comparison
  * Supports loading from shortlist store or shared shortlist via share_id
  */
-export default function ComparePage() {
+function ComparePageContent() {
     const router = useRouter();
     const searchParams = useSearchParams();
     const { shortlist, removeFromShortlist } = useShortlist();
@@ -206,5 +206,24 @@ export default function ComparePage() {
             {/* Toast Notification */}
             {ToastComponent}
         </div>
+    );
+}
+
+/**
+ * Compare Page Wrapper with Suspense
+ * Wraps the compare page content in Suspense for useSearchParams()
+ */
+export default function ComparePage() {
+    return (
+        <Suspense fallback={
+            <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+                <div className="text-center">
+                    <Loader2 size={48} className="mx-auto text-amber-600 animate-spin mb-4" />
+                    <p className="text-gray-600">Loading...</p>
+                </div>
+            </div>
+        }>
+            <ComparePageContent />
+        </Suspense>
     );
 }
